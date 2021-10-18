@@ -5,8 +5,8 @@ This is a template for a webhook API for Google Dialogflow that utilizes Yext An
 
 1. Clone the repo
 2. Add a ```.env``` file that includes an ```ANSWERS_API_KEY``` variable with the API key for your answers experience.
-3. Modify the code in ```index.js``` to for your specific Answers experience.
-4. Enter node index to run the endpoint on ```localhost:3000```
+3. Modify the code in ```index.js``` for your specific Answers experience.
+4. Enter ```node index``` in the terminal to run the endpoint on ```localhost:3000```
 5. Expose your locally running endpoint publically using ngrok.
 6. Create a Dialogflow Agent, enable a webhook call for the Default Fallback Intent, and add your public HTTPS URL as the Webhook URL.
 7. Test using Dialogflow messenger.
